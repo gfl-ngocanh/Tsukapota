@@ -1,0 +1,52 @@
+version: '2'
+
+services:
+  php:
+    image: php:7.0
+    container_name: php
+    networks:
+      docker:
+        ipv4_address: 172.31.0.70
+    links:
+    - mysql
+    volumes:
+    - .:/var/www/html/tsukapota.demo.gfl.jp
+    restart: always
+
+  httpd:
+    image: httpd:alpine
+    container_name: httpd
+    networks:
+      docker:
+        ipv4_address: 172.31.0.89
+    volumes:
+    - ./docker/httpd-alpine/conf/httpd.conf/httpd.conf:/usr/local/apache2/conf/httpd.conf
+    - ./docker/httpd-alpine/conf/virtual-hosts:/usr/local/apache2/conf/extra/vhosts
+    - ./docker/httpd-alpine/conf/ssl:/usr/local/apache2/ssl
+    - ./docker/httpd-alpine/conf/.htpasswd/.htpasswd:/etc/apache2/.htpasswd
+    - ./docker/logs/httpd:/var/log/httpd
+    links:
+    - php
+    volumes_from:
+    - php
+    restart: always
+
+  mysql:
+    image: mysql:5.7
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: docker
+      MYSQL_PASSWORD: docker
+      MYSQL_DATABASE: docker
+    networks:
+      docker:
+        ipv4_address: 172.31.0.3
+    volumes:
+    - ./docker/database:/var/lib/mysql
+    restart: always
+networks:
+  docker:
+    ipam:
+      config:
+      - subnet: 172.31.0.0/16
