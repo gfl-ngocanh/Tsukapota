@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
 
-class SalesComment extends Controller
+class SalesCommentResponsive extends Controller
 {
     //
     public function getSalesComment()
@@ -19,7 +19,7 @@ class SalesComment extends Controller
     					->where('informations.property_id', DB::raw("({$user})"))->where('sentences.factor_code', '>=', 16)->whereIn('sentences.sentence_id', array("v2_s12", "v2_s22", "v2_s32"))
     					->orderByRaw("RAND()")->limit(1)->get();
         $year='1994';
-        return view('index-pc',['saleTalk' => $saleTalk]);
+        return view('index',['saleTalk' => $saleTalk]);
     }
 }
 

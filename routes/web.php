@@ -12,15 +12,16 @@
 */
 
 // Route::get('/', function () {
-//     return view('index');
+//     return view('home');
 // });
 
-Route::get('/index', 'SalesComment@getSalesComment');
 
-Route::get('/', 'SalesComment@getSalesComment')->name('index-pc');
 
-// Route::get('salescomment', 'SalesComment@getSalesComment');
+Route::group(['middleware' => 'auth.very_basic'], function() {
+    
+    Route::get('/', 'SalesComment@getSalesComment');
 
-Auth::routes();
+	Route::get('/responsive', 'SalesCommentResponsive@getSalesComment');
+});
 
-Route::get('/home', 'HomeController@index')->name('home');
+
