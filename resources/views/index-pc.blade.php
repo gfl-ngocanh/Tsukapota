@@ -12,7 +12,7 @@
 	<div class="header" style="display: inline !important;">
 		<div class="container">
 			<div class="row top-banner">
-				<img style="width: 70%;" src="{{url('../front-end/image/Tsukapotaheaderpng.png')}}">
+				<img style="width: 70%; height: 80px" src="{{url('../front-end/image/Tsukapotaheaderpng.png')}}">
 			</div>
 			<div class="row border search-form">
 				<div class="input-group">

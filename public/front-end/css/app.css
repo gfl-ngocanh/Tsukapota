@@ -171,3 +171,5 @@ p {
 ul {
 	list-style-type: none;
 }
+
+.row:before, .row:after {display: none !important;}

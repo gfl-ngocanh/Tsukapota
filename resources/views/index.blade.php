@@ -25,72 +25,72 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
- -->
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item">
-							<a style="width: 120px; text-align: center;" class="nav-link justify-content-center" href="#">
-								<img style="width: 44px; height: 45px;" src="{{url('../front-end/image/グルメアイコン.png')}}">
-								<h6>グルメ</h6>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a style="width: 120px; text-align: center;" class="nav-link justify-content-center" href="#">
-								<img style="width: 44px; height: 45px;" src="{{url('../front-end/image/ショッピングアイコン.png')}}">
-								<h6>ショッピング</h6>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a style="width: 120px; text-align: center;" class="nav-link justify-content-center" href="#">
-								<img style="width: 44px; height: 45px;" src="{{url('../front-end/image/ヘルスケアアイコン.png')}}">
-								<h6>ヘルスケア</h6>
-							</a>
-						</li>
-						<li class="nav-item active">
-							<a style="width: 120px; text-align: center;" class="nav-link justify-content-center" href="#">
-								<img style="width: 44px; height: 45px;" src="{{url('../front-end/image/不動産アイコン.png')}}">
-								<h6>不動産</h6>
-							</a>
-						</li>
-					</ul>
-					<form class="form-inline my-2 my-lg-0">
-						<input class="form-control mr-sm-2" type="search" placeholder="入力してください" aria-label="Search">
-						<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">検索</button>
-					</form>
-				</div>
-			</nav>
-		</div>
+			-->
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a style="width: 120px; text-align: center;" class="nav-link justify-content-center" href="#">
+							<img style="width: 44px; height: 45px;" src="{{url('../front-end/image/グルメアイコン.png')}}">
+							<h6>グルメ</h6>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a style="width: 120px; text-align: center;" class="nav-link justify-content-center" href="#">
+							<img style="width: 44px; height: 45px;" src="{{url('../front-end/image/ショッピングアイコン.png')}}">
+							<h6>ショッピング</h6>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a style="width: 120px; text-align: center;" class="nav-link justify-content-center" href="#">
+							<img style="width: 44px; height: 45px;" src="{{url('../front-end/image/ヘルスケアアイコン.png')}}">
+							<h6>ヘルスケア</h6>
+						</a>
+					</li>
+					<li class="nav-item active">
+						<a style="width: 120px; text-align: center;" class="nav-link justify-content-center" href="#">
+							<img style="width: 44px; height: 45px;" src="{{url('../front-end/image/不動産アイコン.png')}}">
+							<h6>不動産</h6>
+						</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="入力してください" aria-label="Search">
+					<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">検索</button>
+				</form>
+			</div>
+		</nav>
 	</div>
-	<br>
-	<div class="contents">
-		<div class="container content">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-					<div class="row" style="background-color: #fff">
-						<div class="col-md-4 col-lg-4 col-xl-4" id="top-news">
-							<img class="border border-dark" src="{{url('../front-end/image/top-news.png')}}">
-						</div>
-						<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8" style="padding-left: 0px; padding-right: 0px;">
-							<ul class="list-group-flush border-bottom" id="list-top-news">
-								<li class="list-group-item">
-									<a href="#"><h6>ツカミの達人はクロージング支援AIシステムです</h6></a>
-								</li>
-								<li class="list-group-item">
-									<a href="#"><h6>ツカミの達人　不動産営業支援版</h6></a>
-								</li>
-								<li class="list-group-item">
-									<a href="#"><h6>ツカめる・ツカえる・ツカれない！出稿セールスコメント自動生成機能</h6></a>
-								</li>
-								<li class="list-group-item">
-									<a href="#"><h6>HPはくらべる場。一人ひとりを説得する「くらべルーム」機能</h6></a>
-								</li>
-								<li class="list-group-item">
-									<a href="#"><h6>問い合わせしたお客様像を推定する「アナライザー」機能</h6></a>
-								</li>
-							</ul>
-						</div>
+</div>
+<br>
+<div class="contents">
+	<div class="container content">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+				<div class="row" style="background-color: #fff">
+					<div class="col-md-4 col-lg-4 col-xl-4" id="top-news">
+						<img class="border border-dark" src="{{url('../front-end/image/top-news.png')}}">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8" style="padding-left: 0px; padding-right: 0px;">
+						<ul class="list-group-flush border-bottom" id="list-top-news">
+							<li class="list-group-item">
+								<a href="#"><h6>ツカミの達人はクロージング支援AIシステムです</h6></a>
+							</li>
+							<li class="list-group-item">
+								<a href="#"><h6>ツカミの達人　不動産営業支援版</h6></a>
+							</li>
+							<li class="list-group-item">
+								<a href="#"><h6>ツカめる・ツカえる・ツカれない！出稿セールスコメント自動生成機能</h6></a>
+							</li>
+							<li class="list-group-item">
+								<a href="#"><h6>HPはくらべる場。一人ひとりを説得する「くらべルーム」機能</h6></a>
+							</li>
+							<li class="list-group-item">
+								<a href="#"><h6>問い合わせしたお客様像を推定する「アナライザー」機能</h6></a>
+							</li>
+						</ul>
 					</div>
 				</div>
+			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center" id="ads-patern">
 				<div>
 					<h6><b>広告エリア</b></h6>
@@ -102,18 +102,19 @@
 						気づいてました？
 						<br>
 						この
-						<!-- この<span style="color: yellow;">中目黒3,200万円の中古2LDKマンション</span>、
-						<br>
-						<span style="color: pink">星空が見えるルーフバルコニー付き</span> -->
 						<?php foreach ($saleTalk as $saleTalk) {
-								echo $saleTalk->train_subway_station_1;
-    							echo round($saleTalk->price_1/10000, 2) . "万円";
-    							echo 'の';
-    							echo $saleTalk->floor_plan;
-    							echo $saleTalk->property_category;
-    							echo '、';
-    							echo $saleTalk->sentence_content;
-							}
+							echo '<span class="comment_1">';
+							echo $saleTalk->train_subway_station_1;
+							echo round($saleTalk->price_1/10000, 2) . "万円";
+							echo 'の';
+							echo $saleTalk->floor_plan;
+							echo $saleTalk->property_category;
+							echo '</span>';
+							echo '、';
+							echo '<span class="comment_2">';
+							echo $saleTalk->sentence_content;
+							echo '</span>';
+						}
 						?>
 					が魅力なこと。</p>
 					<div class="test-ads-logo">
@@ -292,40 +293,9 @@
 				<div>
 					<h6><b>広告エリア</b></h6>
 				</div>
-				<div class="test-ads border">
-					<div class="test-ads-overlay">
-					</div>
-					<p class="sales-comment">
-						気づいてました？
-						<br>
-						この<span style="color: yellow;">中目黒3,200万円の中古2LDKマンション</span>、
-						<br>
-						<span style="color: pink">星空が見えるルーフバルコニー付き</span>
-					の物件だったことを。</p>
-					<div class="test-ads-logo">
-						<img src="{{url('../front-end/image/logo.png')}}">
-					</div>
-					<div class="choice-btn">
-						<a class="border like" href="#">気になっていた</a>
-						<a class="border dont-like" href="#">気づかなかった</a>
-					</div>
-				</div>
-				<div class="test-ads border">
-					<div class="test-ads-overlay">
-					</div>
-					<p class="sales-comment">
-						気づいてました？
-						<br>
-						この<span style="color: yellow;">中目黒3,200万円の中古2LDKマンション</span>、
-						<br>
-						<span style="color: pink">星空が見えるルーフバルコニー付き</span>
-					の物件だったことを。</p>
-					<div class="test-ads-logo">
-						<img src="{{url('../front-end/image/logo.png')}}">
-					</div>
-					<div class="choice-btn">
-						<a class="border like" href="#">気になっていた</a>
-						<a class="border dont-like" href="#">気づかなかった</a>
+				<div class="row">
+					<div class="col text-center">
+						<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">多様な住まい、多様な探し方。<br><br>2019年11月、ブレードランナーの世界にはちょっと辿り着かなかったけど、テックの助けで見つけたいお家の探し方も色々。<br><br>ゴーグル付けて、脳内回路、繋がるかな？<a href="https://t.co/gz84ilPfBl">https://t.co/gz84ilPfBl</a></p>&mdash; ツカミの達人 (@tsukatatz) <a href="https://twitter.com/tsukatatz/status/1191545940089270272?ref_src=twsrc%5Etfw">November 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</div>
 				</div>
 			</div>
@@ -347,7 +317,7 @@
 				<ul class="list-group-flush border-bottom">
 					<li class="list-group-item">
 						<a href="#" style="display: flex;">
-							<div><img class="suggest-news" src="{{url('../front-end/image/suggest-news.jpg')}}"></div>
+							<div><img class="suggest-news" src="{{url('../front-end/image/giraffe-logo.png')}}"></div>
 							<div class="sub-news">
 								<div>
 									<h6>GIRAFFE&CO</h6>
@@ -360,7 +330,7 @@
 					</li>
 					<li class="list-group-item">
 						<a href="#" style="display: flex;">
-							<div><img class="suggest-news" src="{{url('../front-end/image/suggest-news.jpg')}}"></div>
+							<div><img class="suggest-news" src="{{url('../front-end/image/giraffe-logo.png')}}"></div>
 							<div class="sub-news">
 								<div>
 									<h6>MESSAGE</h6>
@@ -374,7 +344,7 @@
 					</li>
 					<li class="list-group-item">
 						<a href="#" style="display: flex;">
-							<div><img class="suggest-news" src="{{url('../front-end/image/suggest-news.jpg')}}"></div>
+							<div><img class="suggest-news" src="{{url('../front-end/image/giraffe-logo.png')}}"></div>
 							<div class="sub-news">
 								<div>
 									<h6>営業理念</h6>
@@ -387,7 +357,7 @@
 					</li>
 					<li class="list-group-item">
 						<a href="#" style="display: flex;">
-							<div><img class="suggest-news" src="{{url('../front-end/image/suggest-news.jpg')}}"></div>
+							<div><img class="suggest-news" src="{{url('../front-end/image/giraffe-logo.png')}}"></div>
 							<div class="sub-news">
 								<div>
 									<h6>VISION</h6>
@@ -400,7 +370,7 @@
 					</li>
 					<li class="list-group-item">
 						<a href="#" style="display: flex;">
-							<div><img class="suggest-news" src="{{url('../front-end/image/suggest-news.jpg')}}"></div>
+							<div><img class="suggest-news" src="{{url('../front-end/image/giraffe-logo.png')}}"></div>
 							<div class="sub-news">
 								<div>
 									<h6>MISSION</h6>
@@ -413,7 +383,7 @@
 					</li>
 					<li class="list-group-item">
 						<a href="#" style="display: flex;">
-							<div><img class="suggest-news" src="{{url('../front-end/image/suggest-news.jpg')}}"></div>
+							<div><img class="suggest-news" src="{{url('../front-end/image/giraffe-logo.png')}}"></div>
 							<div class="sub-news">
 								<div>
 									<h6>VALUE</h6>
@@ -426,7 +396,7 @@
 					</li>
 					<li class="list-group-item">
 						<a href="#" style="display: flex;">
-							<div><img class="suggest-news" src="{{url('../front-end/image/suggest-news.jpg')}}"></div>
+							<div><img class="suggest-news" src="{{url('../front-end/image/giraffe-logo.png')}}"></div>
 							<div class="sub-news">
 								<div>
 									<h6>会社情報</h6>
@@ -439,7 +409,7 @@
 					</li>
 					<li class="list-group-item">
 						<a href="#" style="display: flex;">
-							<div><img class="suggest-news" src="{{url('../front-end/image/suggest-news.jpg')}}"></div>
+							<div><img class="suggest-news" src="{{url('../front-end/image/giraffe-logo.png')}}"></div>
 							<div class="sub-news">
 								<div>
 									<h6>ツカミの達人リターゲット</h6>
@@ -456,40 +426,11 @@
 				<div>
 					<h6><b>広告エリア</b></h6>
 				</div>
-				<div class="test-ads border">
-					<div class="test-ads-overlay">
-					</div>
-					<p class="sales-comment">
-						気づいてました？
-						<br>
-						この<span style="color: yellow;">中目黒3,200万円の中古2LDKマンション</span>、
-						<br>
-						<span style="color: pink">星空が見えるルーフバルコニー付き</span>
-					の物件だったことを。</p>
-					<div class="test-ads-logo">
-						<img src="{{url('../front-end/image/logo.png')}}">
-					</div>
-					<div class="choice-btn">
-						<a class="border like" href="#">気になっていた</a>
-						<a class="border dont-like" href="#">気づかなかった</a>
-					</div>
-				</div>
-				<div class="test-ads border">
-					<div class="test-ads-overlay">
-					</div>
-					<p class="sales-comment">
-						気づいてました？
-						<br>
-						この<span style="color: yellow;">中目黒3,200万円の中古2LDKマンション</span>、
-						<br>
-						<span style="color: pink">星空が見えるルーフバルコニー付き</span>
-					の物件だったことを。</p>
-					<div class="test-ads-logo">
-						<img src="{{url('../front-end/image/logo.png')}}">
-					</div>
-					<div class="choice-btn">
-						<a class="border like" href="#">気になっていた</a>
-						<a class="border dont-like" href="#">気づかなかった</a>
+				<div class="row">
+					<div class="col text-center">
+						<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">お家を探す時に知りたい事を教えてくれる便利な地図。<br>地図マニアでなくても、気になる場所、知っている場所、あっちこっちガン見してしまいます。<br><br>重ねるハザードマップ<a href="https://t.co/u09ZtqRUK3">https://t.co/u09ZtqRUK3</a> <a href="https://t.co/Au9NAdHWay">pic.twitter.com/Au9NAdHWay</a></p>&mdash; ツカミの達人 (@tsukatatz) <a href="https://twitter.com/tsukatatz/status/1193728812355223553?ref_src=twsrc%5Etfw">2019年11月11日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 					</div>
 				</div>
 			</div>
