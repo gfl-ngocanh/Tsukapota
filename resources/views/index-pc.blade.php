@@ -7,6 +7,9 @@
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 	<link rel="stylesheet" type="text/css" href="{{url('../front-end/css/bootstrap.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{url('../front-end/css/app.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url('../front-end/css/ads-frame.css')}}">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="{{url('../front-end/js/ads-frame.js')}}"></script>
 </header>
 <body>
 	<div class="header" style="display: inline !important;">
@@ -320,6 +323,32 @@
 									<a class="border dont-like" href="#">気づかなかった</a>
 								</div>
 							</div>
+							<br>
+							<div id="wrapper">
+								<div class="popup">
+									<div class="header-bar">
+										<h4>冢美農不動産</h4>
+									</div>
+									<div class="new-mess">
+										<p>新着メッセージが<br>
+										あります！！！</p>
+									</div>
+								</div>
+								<div class="chat">
+									<div class="chat-container">
+										<div class="chat-listcontainer">
+											<ul class="chat-message-list">
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="action-button">
+									<div class="button-container">
+										<a href="#" class="btn-square-slant detail">内覧予約</a>
+										<a href="#" class="btn-square-slant reservation">物件詳細</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<br>
@@ -374,20 +403,20 @@
 		</div>
 	</div>
 	<br>
-<div class="footer">
-	<div class="container border">
-		<blockquote class="blockquote text-center" style="font-size: 0.8rem; margin-bottom: 0px;">
-			ツカめる・ツカえる・ツカれない！出稿セールスコメント自動生成<br>
-			HPはくらべる場。一人ひとりを説得する「くらべルーム」<br>
-			問い合わせしたお客様像を推定する「アナライザー」<br>
-			<footer style="color: #6c757d">クロージング支援AIシステム</footer>
-		</blockquote>
-		<div class="row justify-content-center">
-			<a href="https://tsukamino.com/">
-				<img style="width: 150px" src="{{url('../front-end/image/tsukami-logo.png')}}">
-			</a>
+	<div class="footer">
+		<div class="container border">
+			<blockquote class="blockquote text-center" style="font-size: 0.8rem; margin-bottom: 0px;">
+				ツカめる・ツカえる・ツカれない！出稿セールスコメント自動生成<br>
+				HPはくらべる場。一人ひとりを説得する「くらべルーム」<br>
+				問い合わせしたお客様像を推定する「アナライザー」<br>
+				<footer style="color: #6c757d">クロージング支援AIシステム</footer>
+			</blockquote>
+			<div class="row justify-content-center">
+				<a href="https://tsukamino.com/">
+					<img style="width: 150px" src="{{url('../front-end/image/tsukami-logo.png')}}">
+				</a>
+			</div>
 		</div>
 	</div>
-</div>
 </body>
 </html>
