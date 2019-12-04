@@ -38,7 +38,7 @@
 }
 
 .message-left .message-bubble {
-  max-width: 60%;
+  max-width: 65%;
   display: inline-block;
   background: #fff;
   padding: 15px;
@@ -48,30 +48,33 @@
   font-weight: 100;
   line-height: 1.5em;
   margin-left: 35px;
+  position: relative;
 }
 
-.mszoom  .message-bubble{
-  animation: zoominoutsinglefeatured 1s forwards;
+.message-left .message-bubble:after {
+  content: '';
+  position: absolute;
+  left: 26;
+  top: 19;
+  width: 0;
+  height: 0;
+  border: 19px solid transparent;
+  border-right-color: #fff;
+  border-left: 0;
+  border-top: 0;
+  margin-top: -18.5px;
+  margin-left: -37px;
+  transform: rotate(30deg);
 }
+/*.mszoom  .message-bubble{
+  animation: zoominoutsinglefeatured 1s forwards;
+}*/
 
 
 .message-left .message-text{
   position: relative;
 }
 
-.message-left .message-bubble::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 0;
-  height: 0;
-  /*border-radius: 50%;*/
-  transform: rotate(75deg);
-  top: 3px;
-  left: -3px;
-  border-right: 25px solid #fff;
-  border-bottom: 25px solid #fff;
-}
 
 .message-right {
   text-align: right;
@@ -90,6 +93,23 @@
   line-height: 1.5em;
   font-weight: 100;
   text-align: left;
+  position: relative;
+}
+
+.message-right .message-bubble:after {
+  content: '';
+  position: absolute;
+  right: -8;
+  top: 19;
+  width: 0;
+  height: 0;
+  border: 19px solid transparent;
+  border-left-color: #bef18c;
+  border-right: 0;
+  border-top: 0;
+  margin-top: -18.5px;
+  margin-left: -37px;
+  transform: rotate(-20deg);
 }
 
 .chat {
