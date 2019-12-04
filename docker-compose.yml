@@ -1,0 +1,57 @@
+version: '3'
+
+services:
+  web:
+    container_name: web
+    build: .
+    networks:
+      docker:
+        ipv4_address: 172.31.3.94
+    ports:
+      - 8088:80
+    privileged: true
+    volumes:
+      - ./:/var/www/html
+      - ./docker/logs/apache/access.log:/var/log/apache2/access.log
+      - ./docker/logs/apache/error.log:/var/log/apache2/error.log
+
+  db:
+    image: mysql:5.7
+    container_name: db-host
+    networks:
+      docker:
+        ipv4_address: 172.31.3.95
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: docker-database
+      MYSQL_USER: docker
+      MYSQL_PASSWORD: docker
+      TZ: 'Asia/Tokyo'
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - ./docker/db/data:/var/lib/mysql
+      - ./docker/db/my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./docker/db/sql:/docker-entrypoint-initdb.d
+      - ./docker/logs/db:/var/log/mysql
+    ports:
+      - 3306:3306
+
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    networks:
+      docker:
+        ipv4_address: 172.31.3.93
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOSTS=db-host
+      - PMA_USER=root
+      - PMA_PASSWORD=root
+    ports:
+      - 8080:80
+
+networks:
+  docker:
+    ipam:
+      config:
+      - subnet: 172.31.3.0/16
