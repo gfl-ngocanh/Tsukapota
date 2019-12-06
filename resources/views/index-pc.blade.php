@@ -384,11 +384,20 @@
 												<div class="overal">
 													<p>
 														<span style="font-size: 0.9rem">
-															3,200万円の中古/2LDK
+															<?php 
+																echo round($saleTalk->price_1/10, 2) . "万円";
+																echo 'の';
+																echo $saleTalk->floor_plan;
+																echo $saleTalk->property_category;
+															
+															?>
 														</span>
 														<br>
 														<span style="font-size: 1.2rem">
-															大宮駅徒歩10分
+															<?php 
+																echo $saleTalk->train_subway_station_1;
+																
+															?>徒歩10分
 														</span>
 													</p>
 												</div>
@@ -416,11 +425,21 @@
 												<div class="overal">
 													<p>
 														<span style="font-size: 0.9rem">
-															3,200万円の中古/2LDK
+															<?php 
+																echo round($saleTalk->price_1/10, 2) . "万円";
+																echo 'の';
+																echo $saleTalk->floor_plan;
+																echo $saleTalk->property_category;
+															
+															?>
+															<!-- 3,200万円の中古/2LDK -->
 														</span>
 														<br>
 														<span style="font-size: 1.2rem">
-															大宮駅徒歩10分
+															<?php 
+																echo $saleTalk->train_subway_station_1;
+																
+															?>徒歩10分
 														</span>
 													</p>
 												</div>
@@ -447,11 +466,20 @@
 												<div class="overal">
 													<p>
 														<span style="font-size: 0.9rem">
-															3,200万円の中古/2LDK
+															<?php 
+																echo round($saleTalk->price_1/10, 2) . "万円";
+																echo 'の';
+																echo $saleTalk->floor_plan;
+																echo $saleTalk->property_category;
+															
+															?>
 														</span>
 														<br>
 														<span style="font-size: 1.2rem">
-															大宮駅徒歩10分
+															<?php 
+																echo $saleTalk->train_subway_station_1;
+																
+															?>徒歩10分
 														</span>
 													</p>
 												</div>
@@ -495,11 +523,20 @@
 										<div class="overal">
 													<p>
 														<span style="font-size: 0.9rem">
-															3,200万円の中古/2LDK
+															<?php 
+																echo round($saleTalk->price_1/10, 2) . "万円";
+																echo 'の';
+																echo $saleTalk->floor_plan;
+																echo $saleTalk->property_category;
+															
+															?>
 														</span>
 														<br>
 														<span style="font-size: 1.2rem">
-															大宮駅徒歩10分
+															<?php 
+																echo $saleTalk->train_subway_station_1;
+																
+															?>徒歩10分
 														</span>
 													</p>
 												</div>
