@@ -467,6 +467,52 @@
 						<br>
 						<div class="row">
 							<div class="col">
+							<div id="wrapper">
+								<div class="popup">
+									<div class="header-bar">
+										<h4>冢美農不動産</h4>
+									</div>
+									<div class="new-mess">
+										<p>新着メッセージが<br>
+										あります！！！</p>
+										<!-- <?php 
+											print($salesComment1[0]->salestalk);
+											print($salesComment1[1]->salestalk);
+											print($salesComment1[2]->salestalk);
+											print($salesComment1[3]->salestalk);
+											print($salesComment1[4]->salestalk); ?> -->
+										</div>
+									</div>
+									<div class="chat">
+										<div class="chat-container">
+											<div class="chat-listcontainer">
+												<ul class="chat-message-list">
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="action-button" style="background-color: #ffc107; display: flex;">
+										<div class="overal">
+													<p>
+														<span style="font-size: 0.9rem">
+															3,200万円の中古/2LDK
+														</span>
+														<br>
+														<span style="font-size: 1.2rem">
+															大宮駅徒歩10分
+														</span>
+													</p>
+												</div>
+												<div class="link">
+													<a href="">詳細>></a>
+												</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col">
 								<a href="#">メディア</a>
 							</div>
 						</div>
