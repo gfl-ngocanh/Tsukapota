@@ -8,7 +8,19 @@
 	<link rel="stylesheet" type="text/css" href="{{url('../front-end/css/bootstrap.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{url('../front-end/css/app.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{url('../front-end/css/ads-frame.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url('../front-end/css/patern1-frame.css')}}">
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		var salesSen1 			= {!! json_encode($salesComment1[0]->salestalk) !!},
+		salesSen2 			= {!! json_encode($salesComment1[1]->salestalk) !!},
+		salesSen3 			= {!! json_encode($salesComment1[2]->salestalk) !!},
+		salesSen4 			= {!! json_encode($salesComment1[3]->salestalk) !!},
+		salesSen5 			= {!! json_encode($salesComment1[4]->salestalk) !!},
+		sales2Sen1 			= {!! json_encode($salesComment2[0]->salestalk) !!},
+		station 			= {!! json_encode($saleTalk[0]->train_subway_station_1) !!},
+		floor_plan 			= {!! json_encode($saleTalk[0]->floor_plan) !!},
+		property_category 	= {!! json_encode($saleTalk[0]->property_category) !!};
+	</script>
 	<script type="text/javascript" src="{{url('../front-end/js/ads-frame.js')}}"></script>
 </header>
 <body>
@@ -289,7 +301,7 @@
 				</div>
 				<div class="col-4"  id="ads-patern">
 					<div class="row">
-						<div class="col text-center border">
+						<div class="col text-center border ads-area" style="height: 850px;">
 							<div>
 								<h6><b>広告エリア</b></h6>
 							</div>
@@ -332,91 +344,192 @@
 									<div class="new-mess">
 										<p>新着メッセージが<br>
 										あります！！！</p>
+										<!-- <?php 
+											print($salesComment1[0]->salestalk);
+											print($salesComment1[1]->salestalk);
+											print($salesComment1[2]->salestalk);
+											print($salesComment1[3]->salestalk);
+											print($salesComment1[4]->salestalk); ?> -->
+										</div>
 									</div>
-								</div>
-								<div class="chat">
-									<div class="chat-container">
-										<div class="chat-listcontainer">
-											<ul class="chat-message-list">
-											</ul>
+									<div class="chat">
+										<div class="chat-container">
+											<div class="chat-listcontainer">
+												<ul class="chat-message-list">
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="action-button">
+										<div class="button-container">
+											<a href="#" class="btn-square-slant detail">内覧予約</a>
+											<a href="#" class="btn-square-slant reservation">物件詳細</a>
 										</div>
 									</div>
 								</div>
-								<div class="action-button">
-									<div class="button-container">
-										<a href="#" class="btn-square-slant detail">内覧予約</a>
-										<a href="#" class="btn-square-slant reservation">物件詳細</a>
+								<br>
+								<div class="wrapper2">
+									<div class="frame frame-1">
+										<div class="test-ads2 border">
+											<div class="test-ads-overlay2">
+											</div>
+											<div class="text-wraper">
+												<p class="sales-comment2">
+												大宮駅徒歩10分の物件！</p>
+											</div>
+											<div class="test-ads-logo">
+												<img src="{{url('../front-end/image/logo.png')}}">
+											</div>
+											<div class="under-bar">
+												<div class="overal">
+													<p>
+														<span style="font-size: 0.9rem">
+															3,200万円の中古/2LDK
+														</span>
+														<br>
+														<span style="font-size: 1.2rem">
+															大宮駅徒歩10分
+														</span>
+													</p>
+												</div>
+												<div class="link">
+													<a href="">詳細>></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="frame frame-2">
+										<div class="test-ads2 border">
+											<div class="test-ads-overlay2">
+											</div>
+											<div class="text-wraper">
+												<p class="sales-comment2">
+													日当たり良好！
+													<br>
+													広々した８畳のリビング
+												</p>
+											</div>
+											<div class="test-ads-logo">
+												<img src="{{url('../front-end/image/logo.png')}}">
+											</div>
+											<div class="under-bar">
+												<div class="overal">
+													<p>
+														<span style="font-size: 0.9rem">
+															3,200万円の中古/2LDK
+														</span>
+														<br>
+														<span style="font-size: 1.2rem">
+															大宮駅徒歩10分
+														</span>
+													</p>
+												</div>
+												<div class="link">
+													<a href="">詳細>></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="frame frame-3">
+										<div class="test-ads2 border">
+											<div class="test-ads-overlay2">
+											</div>
+											<div class="text-wraper">
+												<p class="sales-comment2">
+													浴室乾燥機・追い炊き付き
+													<br>
+												機能性溢れる浴室</p>
+											</div>
+											<div class="test-ads-logo">
+												<img src="{{url('../front-end/image/logo.png')}}">
+											</div>
+											<div class="under-bar">
+												<div class="overal">
+													<p>
+														<span style="font-size: 0.9rem">
+															3,200万円の中古/2LDK
+														</span>
+														<br>
+														<span style="font-size: 1.2rem">
+															大宮駅徒歩10分
+														</span>
+													</p>
+												</div>
+												<div class="link">
+													<a href="">詳細>></a>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col">
-							<a href="#">メディア</a>
-						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col-4 text-center">
-							<div>
-								<img style="width: 64px;" src="{{url('../front-end/image/phone.png')}}">
-							</div>
-							<br>
-							<div>
-								<a href="">通話</a>
+						<br>
+						<div class="row">
+							<div class="col">
+								<a href="#">メディア</a>
 							</div>
 						</div>
-						<div class="col-4 text-center">
-							<div>
-								<img style="width: 64px;" src="{{url('../front-end/image/facebook.png')}}">
+						<br>
+						<div class="row">
+							<div class="col-4 text-center">
+								<div>
+									<img style="width: 64px;" src="{{url('../front-end/image/phone.png')}}">
+								</div>
+								<br>
+								<div>
+									<a href="">通話</a>
+								</div>
 							</div>
-							<br>
-							<div>
-								<a href="">Facebook</a>
+							<div class="col-4 text-center">
+								<div>
+									<img style="width: 64px;" src="{{url('../front-end/image/facebook.png')}}">
+								</div>
+								<br>
+								<div>
+									<a href="">Facebook</a>
+								</div>
+							</div>
+							<div class="col-4 text-center">
+								<div>
+									<img style="width: 64px;" src="{{url('../front-end/image/twitter.png')}}">
+								</div>
+								<br>
+								<div>
+									<a href="">Twitter</a>
+								</div>
 							</div>
 						</div>
-						<div class="col-4 text-center">
-							<div>
-								<img style="width: 64px;" src="{{url('../front-end/image/twitter.png')}}">
-							</div>
-							<br>
-							<div>
-								<a href="">Twitter</a>
+						<div class="row">
+							<div class="col text-center">
+								<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">多様な住まい、多様な探し方。<br><br>2019年11月、ブレードランナーの世界にはちょっと辿り着かなかったけど、テックの助けで見つけたいお家の探し方も色々。<br><br>ゴーグル付けて、脳内回路、繋がるかな？<a href="https://t.co/gz84ilPfBl">https://t.co/gz84ilPfBl</a></p>&mdash; ツカミの達人 (@tsukatatz) <a href="https://twitter.com/tsukatatz/status/1191545940089270272?ref_src=twsrc%5Etfw">November 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col text-center">
-							<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">多様な住まい、多様な探し方。<br><br>2019年11月、ブレードランナーの世界にはちょっと辿り着かなかったけど、テックの助けで見つけたいお家の探し方も色々。<br><br>ゴーグル付けて、脳内回路、繋がるかな？<a href="https://t.co/gz84ilPfBl">https://t.co/gz84ilPfBl</a></p>&mdash; ツカミの達人 (@tsukatatz) <a href="https://twitter.com/tsukatatz/status/1191545940089270272?ref_src=twsrc%5Etfw">November 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col text-center">
-							<iframe class="border-bottom" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftatsuototatsuko%2Fposts%2F117869832958850&width=350" width="350" height="410" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+						<br>
+						<div class="row">
+							<div class="col text-center">
+								<iframe class="border-bottom" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftatsuototatsuko%2Fposts%2F117869832958850&width=350" width="350" height="410" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<br>
-	<div class="footer">
-		<div class="container border">
-			<blockquote class="blockquote text-center" style="font-size: 0.8rem; margin-bottom: 0px;">
-				ツカめる・ツカえる・ツカれない！出稿セールスコメント自動生成<br>
-				HPはくらべる場。一人ひとりを説得する「くらべルーム」<br>
-				問い合わせしたお客様像を推定する「アナライザー」<br>
-				<footer style="color: #6c757d">クロージング支援AIシステム</footer>
-			</blockquote>
-			<div class="row justify-content-center">
-				<a href="https://tsukamino.com/">
-					<img style="width: 150px" src="{{url('../front-end/image/tsukami-logo.png')}}">
-				</a>
+		<br>
+		<div class="footer">
+			<div class="container border">
+				<blockquote class="blockquote text-center" style="font-size: 0.8rem; margin-bottom: 0px;">
+					ツカめる・ツカえる・ツカれない！出稿セールスコメント自動生成<br>
+					HPはくらべる場。一人ひとりを説得する「くらべルーム」<br>
+					問い合わせしたお客様像を推定する「アナライザー」<br>
+					<footer style="color: #6c757d">クロージング支援AIシステム</footer>
+				</blockquote>
+				<div class="row justify-content-center">
+					<a href="https://tsukamino.com/">
+						<img style="width: 150px" src="{{url('../front-end/image/tsukami-logo.png')}}">
+					</a>
+				</div>
 			</div>
 		</div>
-	</div>
-</body>
-</html>
+	</body>
+	</html>
