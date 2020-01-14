@@ -305,70 +305,7 @@
 							<div>
 								<h6><b>広告エリア</b></h6>
 							</div>
-							<div class="test-ads border">
-								<div class="test-ads-overlay">
-								</div>
-								<p class="sales-comment">
-									気づいてました？
-									<br>
-									この
-									<?php foreach ($saleTalk as $saleTalk) {
-										echo '<span class="comment_1">';
-										echo $saleTalk->train_subway_station_1;
-										echo round($saleTalk->price_1/10000, 2) . "万円";
-										echo 'の';
-										echo $saleTalk->floor_plan;
-										echo $saleTalk->property_category;
-										echo '</span>';
-										echo '、';
-										echo '<span class="comment_2">';
-										echo $saleTalk->sentence_content;
-										echo '</span>';
-									}
-									?>
-								が魅力なこと。</p>
-								<div class="test-ads-logo">
-									<img src="{{url('../front-end/image/logo.png')}}">
-								</div>
-								<div class="choice-btn">
-									<a class="border like" href="#">気になっていた</a>
-									<a class="border dont-like" href="#">気づかなかった</a>
-								</div>
-							</div>
-							<br>
-							<div id="wrapper">
-								<div class="popup">
-									<div class="header-bar">
-										<h4>冢美農不動産</h4>
-									</div>
-									<div class="new-mess">
-										<p>新着メッセージが<br>
-										あります！！！</p>
-										<!-- <?php 
-											print($salesComment1[0]->salestalk);
-											print($salesComment1[1]->salestalk);
-											print($salesComment1[2]->salestalk);
-											print($salesComment1[3]->salestalk);
-											print($salesComment1[4]->salestalk); ?> -->
-										</div>
-									</div>
-									<div class="chat">
-										<div class="chat-container">
-											<div class="chat-listcontainer">
-												<ul class="chat-message-list">
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="action-button">
-										<div class="button-container">
-											<a href="#" class="btn-square-slant detail">内覧予約</a>
-											<a href="#" class="btn-square-slant reservation">物件詳細</a>
-										</div>
-									</div>
-								</div>
-								<br>
-								<div class="wrapper2">
+								<div class="wrapper2" style="height: 250px;">
 									<div class="frame frame-1">
 										<div class="test-ads2 border">
 											<div class="test-ads-overlay2">
@@ -384,12 +321,12 @@
 												<div class="overal">
 													<p>
 														<span style="font-size: 0.9rem">
-															<?php 
+															<?php foreach ($saleTalk as $saleTalk) {
 																echo round($saleTalk->price_1/10, 2) . "万円";
 																echo 'の';
 																echo $saleTalk->floor_plan;
 																echo $saleTalk->property_category;
-															
+															}
 															?>
 														</span>
 														<br>
@@ -490,12 +427,8 @@
 										</div>
 									</div>
 								</div>
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col">
-							<div id="wrapper">
+								<br>
+								<div id="wrapper">
 								<div class="popup">
 									<div class="header-bar">
 										<h4>冢美農不動産</h4>
@@ -545,6 +478,12 @@
 												</div>
 									</div>
 								</div>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col">
+							
 							</div>
 						</div>
 						<br>
