@@ -83,7 +83,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
 				<div class="row">
-					<div class="col-12"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTZpzjMkyQ3iAGIUZF0XjtmEEQs9DO2rTg0iI3P49jx0WBn0Z3RelgxNYuj2Xg11udiJDaJ0c8CacmT/embed?start=false&loop=true&delayms=60000" frameborder="0" width="560" height="315" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+					<div class="col-12 embed-responsive embed-responsive-16by9"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTZpzjMkyQ3iAGIUZF0XjtmEEQs9DO2rTg0iI3P49jx0WBn0Z3RelgxNYuj2Xg11udiJDaJ0c8CacmT/embed?start=false&loop=true&delayms=60000" frameborder="0" width="560" height="315" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 					</div>
 				</div>
 				<div class="row">
