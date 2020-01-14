@@ -113,13 +113,14 @@
 						<h6><b>広告エリア</b></h6>
 					</div>
 					<div class="wrapper2" style="height: 250px">
-						<div class="frame frame-1">
+						<div class="frame frame-13">
 							<div class="test-ads2 border">
 								<div class="test-ads-overlay2">
 								</div>
 								<div class="text-wraper">
 									<p class="sales-comment2">
-									大宮駅徒歩10分の物件！</p>
+										エクササイズを習慣にできるアスレチックルーム付
+									</p>
 								</div>
 								<div class="test-ads-logo">
 									<img src="{{url('../front-end/image/logo.png')}}">
@@ -151,15 +152,13 @@
 								</div>
 							</div>
 						</div>
-						<div class="frame frame-2">
+						<div class="frame frame-12">
 							<div class="test-ads2 border">
 								<div class="test-ads-overlay2">
 								</div>
 								<div class="text-wraper">
 									<p class="sales-comment2">
-										日当たり良好！
-										<br>
-										広々した８畳のリビング
+										騒音に悩まずプライバシーも守れる防音設備付
 									</p>
 								</div>
 								<div class="test-ads-logo">
@@ -193,15 +192,404 @@
 								</div>
 							</div>
 						</div>
+						<div class="frame frame-11">
+							<div class="test-ads2 border">
+								<div class="test-ads-overlay2">
+								</div>
+								<div class="text-wraper">
+									<p class="sales-comment2">
+										階下への騒音を和らげるクッションフロア採用
+									</p>
+								</div>
+								<div class="test-ads-logo">
+									<img src="{{url('../front-end/image/logo.png')}}">
+								</div>
+								<div class="under-bar">
+									<div class="overal">
+										<p>
+											<span style="font-size: 0.9rem">
+												<?php 
+												echo round($saleTalk->price_1/10, 2) . "万円";
+												echo 'の';
+												echo $saleTalk->floor_plan;
+												echo $saleTalk->property_category;
+
+												?>
+											</span>
+											<br>
+											<span style="font-size: 1.2rem">
+												<?php 
+												echo $saleTalk->train_subway_station_1;
+
+												?>徒歩10分
+											</span>
+										</p>
+									</div>
+									<div class="link">
+										<a href="">詳細>></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="frame frame-10">
+							<div class="test-ads2 border">
+								<div class="test-ads-overlay2">
+								</div>
+								<div class="text-wraper">
+									<p class="sales-comment2">
+										バイオメトリクス技術を使った静脈認証式キー採用
+									</p>
+								</div>
+								<div class="test-ads-logo">
+									<img src="{{url('../front-end/image/logo.png')}}">
+								</div>
+								<div class="under-bar">
+									<div class="overal">
+										<p>
+											<span style="font-size: 0.9rem">
+												<?php 
+												echo round($saleTalk->price_1/10, 2) . "万円";
+												echo 'の';
+												echo $saleTalk->floor_plan;
+												echo $saleTalk->property_category;
+
+												?>
+											</span>
+											<br>
+											<span style="font-size: 1.2rem">
+												<?php 
+												echo $saleTalk->train_subway_station_1;
+
+												?>徒歩10分
+											</span>
+										</p>
+									</div>
+									<div class="link">
+										<a href="">詳細>></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="frame frame-9">
+							<div class="test-ads2 border">
+								<div class="test-ads-overlay2">
+								</div>
+								<div class="text-wraper">
+									<p class="sales-comment2">
+										耐震や省エネで国の基準をクリアした長期優良住宅
+									</p>
+								</div>
+								<div class="test-ads-logo">
+									<img src="{{url('../front-end/image/logo.png')}}">
+								</div>
+								<div class="under-bar">
+									<div class="overal">
+										<p>
+											<span style="font-size: 0.9rem">
+												<?php 
+												echo round($saleTalk->price_1/10, 2) . "万円";
+												echo 'の';
+												echo $saleTalk->floor_plan;
+												echo $saleTalk->property_category;
+
+												?>
+											</span>
+											<br>
+											<span style="font-size: 1.2rem">
+												<?php 
+												echo $saleTalk->train_subway_station_1;
+
+												?>徒歩10分
+											</span>
+										</p>
+									</div>
+									<div class="link">
+										<a href="">詳細>></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="frame frame-8">
+							<div class="test-ads2 border">
+								<div class="test-ads-overlay2">
+								</div>
+								<div class="text-wraper">
+									<p class="sales-comment2">
+										クリエイターの感性が光るデザイナーズ物件
+									</p>
+								</div>
+								<div class="test-ads-logo">
+									<img src="{{url('../front-end/image/logo.png')}}">
+								</div>
+								<div class="under-bar">
+									<div class="overal">
+										<p>
+											<span style="font-size: 0.9rem">
+												<?php 
+												echo round($saleTalk->price_1/10, 2) . "万円";
+												echo 'の';
+												echo $saleTalk->floor_plan;
+												echo $saleTalk->property_category;
+
+												?>
+											</span>
+											<br>
+											<span style="font-size: 1.2rem">
+												<?php 
+												echo $saleTalk->train_subway_station_1;
+
+												?>徒歩10分
+											</span>
+										</p>
+									</div>
+									<div class="link">
+										<a href="">詳細>></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="frame frame-7">
+							<div class="test-ads2 border">
+								<div class="test-ads-overlay2">
+								</div>
+								<div class="text-wraper">
+									<p class="sales-comment2">
+										充電施設探しに困らないEV車充電設備付
+									</p>
+								</div>
+								<div class="test-ads-logo">
+									<img src="{{url('../front-end/image/logo.png')}}">
+								</div>
+								<div class="under-bar">
+									<div class="overal">
+										<p>
+											<span style="font-size: 0.9rem">
+												<?php 
+												echo round($saleTalk->price_1/10, 2) . "万円";
+												echo 'の';
+												echo $saleTalk->floor_plan;
+												echo $saleTalk->property_category;
+
+												?>
+											</span>
+											<br>
+											<span style="font-size: 1.2rem">
+												<?php 
+												echo $saleTalk->train_subway_station_1;
+
+												?>徒歩10分
+											</span>
+										</p>
+									</div>
+									<div class="link">
+										<a href="">詳細>></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="frame frame-6">
+							<div class="test-ads2 border">
+								<div class="test-ads-overlay2">
+								</div>
+								<div class="text-wraper">
+									<p class="sales-comment2">
+										大切な愛車を格納する屋内駐車場
+									</p>
+								</div>
+								<div class="test-ads-logo">
+									<img src="{{url('../front-end/image/logo.png')}}">
+								</div>
+								<div class="under-bar">
+									<div class="overal">
+										<p>
+											<span style="font-size: 0.9rem">
+												<?php 
+												echo round($saleTalk->price_1/10, 2) . "万円";
+												echo 'の';
+												echo $saleTalk->floor_plan;
+												echo $saleTalk->property_category;
+
+												?>
+											</span>
+											<br>
+											<span style="font-size: 1.2rem">
+												<?php 
+												echo $saleTalk->train_subway_station_1;
+
+												?>徒歩10分
+											</span>
+										</p>
+									</div>
+									<div class="link">
+										<a href="">詳細>></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="frame frame-5">
+							<div class="test-ads2 border">
+								<div class="test-ads-overlay2">
+								</div>
+								<div class="text-wraper">
+									<p class="sales-comment2">
+										来客時の道案内がラクな駅前のロケーション
+									</p>
+								</div>
+								<div class="test-ads-logo">
+									<img src="{{url('../front-end/image/logo.png')}}">
+								</div>
+								<div class="under-bar">
+									<div class="overal">
+										<p>
+											<span style="font-size: 0.9rem">
+												<?php 
+												echo round($saleTalk->price_1/10, 2) . "万円";
+												echo 'の';
+												echo $saleTalk->floor_plan;
+												echo $saleTalk->property_category;
+
+												?>
+											</span>
+											<br>
+											<span style="font-size: 1.2rem">
+												<?php 
+												echo $saleTalk->train_subway_station_1;
+
+												?>徒歩10分
+											</span>
+										</p>
+									</div>
+									<div class="link">
+										<a href="">詳細>></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="frame frame-4">
+							<div class="test-ads2 border">
+								<div class="test-ads-overlay2">
+								</div>
+								<div class="text-wraper">
+									<p class="sales-comment2">
+										昼下がりのお茶もほっこりできる南面リビング付
+									</p>
+								</div>
+								<div class="test-ads-logo">
+									<img src="{{url('../front-end/image/logo.png')}}">
+								</div>
+								<div class="under-bar">
+									<div class="overal">
+										<p>
+											<span style="font-size: 0.9rem">
+												<?php 
+												echo round($saleTalk->price_1/10, 2) . "万円";
+												echo 'の';
+												echo $saleTalk->floor_plan;
+												echo $saleTalk->property_category;
+
+												?>
+											</span>
+											<br>
+											<span style="font-size: 1.2rem">
+												<?php 
+												echo $saleTalk->train_subway_station_1;
+
+												?>徒歩10分
+											</span>
+										</p>
+									</div>
+									<div class="link">
+										<a href="">詳細>></a>
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="frame frame-3">
 							<div class="test-ads2 border">
 								<div class="test-ads-overlay2">
 								</div>
 								<div class="text-wraper">
 									<p class="sales-comment2">
-										浴室乾燥機・追い炊き付き
-										<br>
-									機能性溢れる浴室</p>
+										自然光で明るさを取り入れる吹抜のリビング
+									</p>
+								</div>
+								<div class="test-ads-logo">
+									<img src="{{url('../front-end/image/logo.png')}}">
+								</div>
+								<div class="under-bar">
+									<div class="overal">
+										<p>
+											<span style="font-size: 0.9rem">
+												<?php 
+												echo round($saleTalk->price_1/10, 2) . "万円";
+												echo 'の';
+												echo $saleTalk->floor_plan;
+												echo $saleTalk->property_category;
+
+												?>
+											</span>
+											<br>
+											<span style="font-size: 1.2rem">
+												<?php 
+												echo $saleTalk->train_subway_station_1;
+
+												?>徒歩10分
+											</span>
+										</p>
+									</div>
+									<div class="link">
+										<a href="">詳細>></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="frame frame-2">
+							<div class="test-ads2 border">
+								<div class="test-ads-overlay2">
+								</div>
+								<div class="text-wraper">
+									<p class="sales-comment2">
+										お風呂タイムがエンターテイメントになるTV付バス
+									</p>
+								</div>
+								<div class="test-ads-logo">
+									<img src="{{url('../front-end/image/logo.png')}}">
+								</div>
+								<div class="under-bar">
+									<div class="overal">
+										<p>
+											<span style="font-size: 0.9rem">
+												<?php 
+												echo round($saleTalk->price_1/10, 2) . "万円";
+												echo 'の';
+												echo $saleTalk->floor_plan;
+												echo $saleTalk->property_category;
+
+												?>
+											</span>
+											<br>
+											<span style="font-size: 1.2rem">
+												<?php 
+												echo $saleTalk->train_subway_station_1;
+
+												?>徒歩10分
+											</span>
+										</p>
+									</div>
+									<div class="link">
+										<a href="">詳細>></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="frame frame-1">
+							<div class="test-ads2 border">
+								<div class="test-ads-overlay2">
+								</div>
+								<div class="text-wraper">
+									<p class="sales-comment2">
+										建築技術上の省エネルギー基準をクリアしたBELS/省エネ基準適合
+									</p>
 								</div>
 								<div class="test-ads-logo">
 									<img src="{{url('../front-end/image/logo.png')}}">
