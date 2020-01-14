@@ -61,7 +61,6 @@
 }
 
 .frame {
-	z-index: 3;
   animation: slideshow 12s linear 0s infinite;
 }
 
@@ -70,13 +69,11 @@
 }
 .frame-2 {
 	background-image: url("../image/sunshine.jpg") !important;
-  	z-index: 2;
   	animation-delay: 4s;
 }
 
 .frame-3 {
 	background-image: url("../image/bathroom.jpg") !important;
-  	z-index: 1;
   	animation-delay: 8s;
 }
 
