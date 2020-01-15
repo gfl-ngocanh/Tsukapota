@@ -781,11 +781,12 @@
 									<div class="short-paragraph" style="color: black;">
 										<h6>ジラフルのダイナミックリターゲティングは、ユーザーの関心が高い特定の商材の魅力を「キャッチコピー」で多面的に繰り返し訴求し口説き落とすことが可能</h6>
 									</div>
-									<div class="banner-image hidden-ls hidden-xl">
-										<img src="{{url('../front-end/image/banner-image.png')}}" class="img-fluid" alt="Responsive image" style="width: auto; height: auto;">
-									</div>
 								</div>
 							</a>
+							
+									<div class="banner-image">
+										<img src="{{url('../front-end/image/banner-image.png')}}" class="img-fluid" alt="Responsive image" style="width: auto; height: auto;">
+									</div>
 						</li>
 						<li class="list-group-item">
 							<a href="#" style="display: flex;">
