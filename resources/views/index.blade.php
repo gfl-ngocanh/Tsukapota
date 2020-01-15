@@ -1,4 +1,4 @@
-<html>
+<htal>
 <head>
 	<title>Ads test</title>
 	<!-- Required meta tags -->
@@ -755,7 +755,7 @@
 					<ul class="list-group-flush border-bottom">
 						<li class="list-group-item">
 							<a href="#" style="display: flex;">
-								<div><img class="suggest-news" src="{{url('../front-end/image/giraffe-logo.png')}}"></div>
+								<div><img class="suggest-news" src="{{url('../front-end/image/giraffe-logo.png')}}" style="height: auto !important;"></div>
 								<div class="sub-news">
 									<div class="short-paragraph" style="color: black;">
 										<h6>WEBマーケティングを得意領域とするGiRAFFE&Co.とテクノロジーを駆使したコンテンツおよびソリューション開発を得意とするGFLの２社がジョイントベンチャー『株式会社ジラフル』を設立</h6>
@@ -782,7 +782,7 @@
 										<h6>ジラフルのダイナミックリターゲティングは、ユーザーの関心が高い特定の商材の魅力を「キャッチコピー」で多面的に繰り返し訴求し口説き落とすことが可能</h6>
 									</div>
 									<div class="banner-image hidden-ls hidden-xl">
-										<img src="{{url('../front-end/image/banner-image.png')}}" style="width: 300px; height: 250px;">
+										<img src="{{url('../front-end/image/banner-image.png')}}" class="img-fluid" alt="Responsive image" style="width: auto; height: auto;">
 									</div>
 								</div>
 							</a>
