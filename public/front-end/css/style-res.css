@@ -154,6 +154,10 @@ li:hover {
 	height: 80px;
 }
 
+.list-group-item {
+	border-bottom: solid 1px gray !important;
+}
+
 .sub-news {
 	padding-left: 5px;
 }

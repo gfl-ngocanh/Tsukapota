@@ -5,8 +5,9 @@
 	height: 250px; 
 	width: 300px; 
     margin-left: 7%;
-  	animation: slideshow 78s infinite;
-  	-webkit-animation: slideshow 78s infinite;
+  	animation: slideshow 52s infinite;
+  	-webkit-animation: slideshow 52s infinite;
+  	-moz-animation: slideshow 52s infinite;
 }
 
 .test-ads-logo {
@@ -69,74 +70,93 @@
 	background-image: url("../image/loop-banner/1-4.jpg") !important;
   	animation-delay: 4s;
 	-webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
 }
 
 .frame-3 {
 	background-image: url("../image/loop-banner/2-1.jpg") !important;
   	animation-delay: 8s;
 	-webkit-animation-delay: 8s;
+	-moz-animation-delay: 8s;
 }
 
 .frame-4 {
 	background-image: url("../image/loop-banner/2-3.jpg") !important;
   	animation-delay: 12s;
 	-webkit-animation-delay: 12s;
+	-moz-animation-delay: 12s;
 }
 .frame-5 {
 	background-image: url("../image/loop-banner/3-1.jpg") !important;
   	animation-delay: 16s;
 	-webkit-animation-delay: 16s;
+	-moz-animation-delay: 16s;
 }
 .frame-6 {
 	background-image: url("../image/loop-banner/3-3.jpg") !important;
   	animation-delay: 20s;
 	-webkit-animation-delay: 20s;
+	-moz-animation-delay: 20s;
 }
 .frame-7 {
 	background-image: url("../image/loop-banner/4-3.jpg") !important;
   	animation-delay: 24s;
 	-webkit-animation-delay: 24s;
+	-moz-animation-delay: 24s;
 }
 .frame-8 {
 	background-image: url("../image/loop-banner/5-1.jpg") !important;
   	animation-delay: 28s;
 	-webkit-animation-delay: 28s;
+	-moz-animation-delay: 28s;
 }
 .frame-9 {
 	background-image: url("../image/loop-banner/6-1.jpg") !important;
   	animation-delay: 32s;
 	-webkit-animation-delay: 32s;
+	-moz-animation-delay: 32s;
 }
 .frame-10 {
 	background-image: url("../image/loop-banner/7-1.jpg") !important;
   	animation-delay: 36s;
 	-webkit-animation-delay: 36s;
+	-moz-animation-delay: 36s;
 }
 .frame-11 {
 	background-image: url("../image/loop-banner/8-1.jpg") !important;
   	animation-delay: 40s;
 	-webkit-animation-delay: 40s;
+	-moz-animation-delay: 40s;
 }
 .frame-12 {
 	background-image: url("../image/loop-banner/8-3.jpg") !important;
   	animation-delay: 44s;
 	-webkit-animation-delay: 44s;
+	-moz-animation-delay: 44s;
 }
 .frame-13 {
 	background-image: url("../image/loop-banner/9-4.jpg") !important;
   	animation-delay: 48s;
 	-webkit-animation-delay: 48s;
+	-moz-animation-delay: 48s;
 }
 
 @keyframes slideshow {
-   30% { opacity: 1;}
-   33.33% { opacity: 0;} 
-   91.66% { opacity: 0;}
+   7.5% { opacity: 1;}
+   8% { opacity: 0;} 
+   96% { opacity: 0;}
    100% { opacity: 1;}
 }
 @-webkit-keyframes slideshow {
-   30% { opacity: 1;}
-   33.33% { opacity: 0;} 
-   91.66% { opacity: 0;}
+   7.5% { opacity: 1;}
+   8% { opacity: 0;} 
+   96% { opacity: 0;}
+   100% { opacity: 1;}
+}
+
+@-moz-keyframes slideshow {
+   7.5% { opacity: 1;}
+   8% { opacity: 0;} 
+   96% { opacity: 0;}
    100% { opacity: 1;}
 }
